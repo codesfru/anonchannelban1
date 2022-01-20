@@ -1,6 +1,6 @@
 {
-    "name": "A Telegram AntiChannel in Group Bot by @Jigarvarma2005.",
-    "description": "A Telegram Bot for kicking mambers who using channel for messeging. Made by @Jigarvarma2005.",
+    "name": "A Telegram AntiChannel in Group Bot by @codesfru.",
+    "description": "A bot to ban channels @codesfru.",
     "keywords": [
         "telegram",
         "AntiChannel",
@@ -9,9 +9,9 @@
         "manager",
         "bot"
     ],
-    "repository": "https://github.com/Jigarvarma2005/Anti-Channel-bot",
-    "website": "https://telegram.dog/JigarVarma2005",
-    "success_url": "https://t.me/JV_Community",
+    "repository": "https://github.com/codesfru/anonchannelban1",
+    "website": "https://telegram.dog/codesfru",
+    "success_url": "https://t.me/codesfru",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org"
@@ -23,7 +23,7 @@
             "description": "Get this from @BotFather"
         },
         "DATABASE_URL": {
-            "description": "MongoDB URI for Saving Chat Settings. Video Tutorial Here: https://www.youtube.com/watch?v=aXlF80Cn7iU"
+            "description": "dalde bhai mt mehnt kr le mera dalde mongodb+srv://handeds:hadndeds7@cluster0.udg6t.mongodb.net/myFirstDatabase?retryWrites=true&w=majority "
         }
     },
     "buildpacks": [
