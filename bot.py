@@ -86,11 +86,11 @@ async def main_handler(bot, message):
 
 @JV_BOT.on_message(filters.command(["start"]) & filters.private)
 async def start_handler(bot, message):
-    await message.reply_text(text="""Hey! Just add me to the chat, and I will block the channels that write to the chat,
+    await message.reply_text(text="""Hey! Just add me to the chat with ban and delete message rights , I Will ban the anon channel which user use to text message in group ,
 
 check /help for more.""",
-                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Bots Channel", url=f"https://t.me/Universal_Projects"),
-                                                                 InlineKeyboardButton("Support Group", url=f"https://t.me/JV_Community")]]),
+                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Bots Channel", url=f"https://t.me/MyTestBotZ"),
+                                                                 InlineKeyboardButton("Super list", url=f"https://t.me/MyBotZList/5")]]),
                              disable_web_page_preview=True)
 
 @JV_BOT.on_message(filters.command(["help"]) & filters.private)
@@ -101,9 +101,9 @@ async def help_handler(bot, message):
 /del_whitelist [channel_id] : remove channel from whitelist.
 /show_whitelist : Show all white list channels.
 
-for more help ask at @JV_Community""",
-                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Bots Channel", url=f"https://t.me/Universal_Projects"),
-                                                                 InlineKeyboardButton("Support Group", url=f"https://t.me/JV_Community")]]),
+for more help ask at @OO7ROBot""",
+                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Bots Channel", url=f"https://t.me/MyTestBotZ"),
+                                                                 InlineKeyboardButton("Support Group", url=f"https://t.me/MyTestBotZ/5")]]),
                              disable_web_page_preview=True)
 
 
